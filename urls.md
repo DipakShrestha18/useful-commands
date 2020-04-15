@@ -1,6 +1,6 @@
 Drupal 8 Migration  
 ```
-<https://www.drupal.org/docs/8/upgrade/known-issues-when-upgrading-from-drupal-6-or-7-to-drupal-8>
+[website]: https://www.drupal.org/docs/8/upgrade/known-issues-when-upgrading-from-drupal-6-or-7-to-drupal-8
 <https://softescu.com/en/blog/how-migrate-paragraphs-drupal-7-drupal-8>
 <https://agaric.coop/blog/introduction-paragraphs-migrations-drupal>
 <https://deninet.com/blog/2017/06/18/building-custom-migration-drupal-8-part-5-paragraphs>
