@@ -1,13 +1,11 @@
 Markdown Cheatsheet
-```
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-```
+[https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet] ```https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet```
 
 Drupal 8 Migration  
 ```
-[https://www.drupal.org/docs/8/upgrade/known-issues-when-upgrading-from-drupal-6-or-7-to-drupal-8]
-<https://softescu.com/en/blog/how-migrate-paragraphs-drupal-7-drupal-8>
-<https://agaric.coop/blog/introduction-paragraphs-migrations-drupal>
+[https://www.drupal.org/docs/8/upgrade/known-issues-when-upgrading-from-drupal-6-or-7-to-drupal-8
+<https://softescu.com/en/blog/how-migrate-paragraphs-drupal-7-drupal-8
+<https://agaric.coop/blog/introduction-paragraphs-migrations-drupal
 <https://deninet.com/blog/2017/06/18/building-custom-migration-drupal-8-part-5-paragraphs>
 <https://www.drupal.org/docs/8/upgrade/customize-migrations-when-upgrading-to-drupal-8>
 <https://www.lullabot.com/articles/merging-entities-during-a-migration-to-drupal-8>
