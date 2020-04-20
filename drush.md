@@ -37,3 +37,8 @@ To look at system.site configuration
 drush cget system.site
 ```
 
+Common command 
+```
+drush cr
+```
+
