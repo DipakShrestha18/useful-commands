@@ -8,9 +8,11 @@ drush pm-install <MIGMODULENAME>
 Config command
 ```
 drush config-split-export
+drush config-split:export
 drush config-split-import
 drush config-split-export <dev>
 drush config-split-import <sync>
+drush config-split:import config_dev
 
 drush cim
 drush cex
