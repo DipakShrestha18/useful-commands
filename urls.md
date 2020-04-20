@@ -12,6 +12,10 @@ https://www.lullabot.com/articles/merging-entities-during-a-migration-to-drupal-
 https://www.drupal.org/docs/8/upgrade/known-issues-when-upgrading-from-drupal-6-or-7-to-drupal-8
 https://understanddrupal.com/migrations
 ```
+CSV with plugin
+```
+https://colorfield.be/blog/migrate-csv-to-content-entities-with-paragraphs
+```
 
 Drupal 8 field to paragraphs
 ```
