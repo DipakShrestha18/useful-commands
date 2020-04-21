@@ -22,3 +22,7 @@ Drupal 8 field to paragraphs
 https://thinktandem.io/blog/2018/02/08/migrating-a-drupal-7-body-field-to-a-drupal-8-paragraph/
 
 ```
+
+```
+https://www.axelerant.com/resources/team-blog/migrate-paragraph-reference-field-multiple-values
+```
