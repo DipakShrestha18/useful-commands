@@ -26,3 +26,7 @@ https://thinktandem.io/blog/2018/02/08/migrating-a-drupal-7-body-field-to-a-drup
 ```
 https://www.axelerant.com/resources/team-blog/migrate-paragraph-reference-field-multiple-values
 ```
+
+```
+https://atendesigngroup.com/blog/drupal-8-migration-multiple-paragraph-references
+```
