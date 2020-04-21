@@ -1,5 +1,12 @@
 Migrate command
 ```
+drush ms
+drush migrate:import <migration name>
+drush migrate:reset-status <migration name>
+drush migration:rollback <migration name>
+```
+
+```
 drush migrate-reset-status <MIGNAME>
 drush pm-uninstall <MIGMODULENAME>
 drush pm-install <MIGMODULENAME>
