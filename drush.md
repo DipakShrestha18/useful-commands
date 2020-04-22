@@ -1,10 +1,11 @@
 Migrate command
 ```
 drush ms
-drush migrate:import <migration name>
+drush migrate:import (mim) <migration name>
 drush migrate:stop <migration name>
-drush migrate:reset-status <migration name>
-drush migration:rollback <migration name>
+drush migrate:reset-status (mrs) <migration name>
+drush migration:rollback (mr) <migration name>
+drush mmsg <migration name>
 ```
 
 ```
