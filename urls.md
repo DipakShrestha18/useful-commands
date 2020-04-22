@@ -12,6 +12,11 @@ https://www.lullabot.com/articles/merging-entities-during-a-migration-to-drupal-
 https://www.drupal.org/docs/8/upgrade/known-issues-when-upgrading-from-drupal-6-or-7-to-drupal-8
 https://understanddrupal.com/migrations
 ```
+
+```
+https://www.drupal.org/node/2544874
+```
+
 Migrate Plugins
 ```
 https://www.drupal.org/docs/8/api/migrate-api/migrate-process-plugins
