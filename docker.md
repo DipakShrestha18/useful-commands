@@ -1,3 +1,7 @@
+```
+docker-compose exec php bash
+```
+
 stop all containers:  
 ```docker kill $(docker ps -q)```
 
