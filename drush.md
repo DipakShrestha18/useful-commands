@@ -1,11 +1,12 @@
 Migrate command
 ```
-drush ms
-drush migrate:import (mim) <migration name>
-drush migrate:stop <migration name>
-drush migrate:reset-status (mrs) <migration name>
-drush migration:rollback (mr) <migration name>
-drush mmsg <migration name>
+ migrate:fields-source (mfs) List the fields available for mapping in a source. 
+ migrate:import (mim)        Perform one or more migration processes.           
+ migrate:messages (mmsg)     View any messages associated with a migration.     
+ migrate:reset-status (mrs)  Reset a active migration's status to idle.         
+ migrate:rollback (mr)       Rollback one or more migrations.                             
+ migrate:stop (mst)          Stop an active migration operation. 
+ migrate:status (ms)         List all migrations with current status. 
 ```
 
 ```
