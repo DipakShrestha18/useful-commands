@@ -7,6 +7,10 @@ Migrate command
  migrate:rollback (mr)       Rollback one or more migrations.                             
  migrate:stop (mst)          Stop an active migration operation. 
  migrate:status (ms)         List all migrations with current status. 
+ 
+ drush mim --migrate-debug
+ drush ms --migrate-debug
+ drush mim --migrate-debug-pre
 ```
 
 ```
