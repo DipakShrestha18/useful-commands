@@ -31,6 +31,9 @@ drush config-split:import config_dev
 to export migration
 drush config-export --destination=/var/www/html/drupal/<new_folder>/
 
+to update migrate file
+drush config-import --partial --source=modules/custom/migrate_module/config/install/
+
 drush cim
 drush cex
 
