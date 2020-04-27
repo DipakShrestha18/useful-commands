@@ -16,6 +16,7 @@ https://www.drupal.org/docs/8/upgrade/customize-migrations-when-upgrading-to-dru
 https://www.lullabot.com/articles/merging-entities-during-a-migration-to-drupal-8
 https://www.drupal.org/docs/8/upgrade/known-issues-when-upgrading-from-drupal-6-or-7-to-drupal-8
 https://understanddrupal.com/migrations
+https://oldmoondigital.com/blog/how-migrate-custom-entities-paragraphs-drupal-7-drupal-8-migrate-api-part-one
 ```
 
 ```
@@ -35,7 +36,6 @@ https://colorfield.be/blog/migrate-csv-to-content-entities-with-paragraphs
 Drupal 8 field to paragraphs
 ```
 https://thinktandem.io/blog/2018/02/08/migrating-a-drupal-7-body-field-to-a-drupal-8-paragraph/
-
 ```
 
 ```
