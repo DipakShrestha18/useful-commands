@@ -1,2 +1,2 @@
 
-`composer remove drupal/<module_name>
+`composer remove drupal/<module_name>`
