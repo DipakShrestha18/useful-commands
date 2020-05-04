@@ -45,3 +45,8 @@ https://www.axelerant.com/resources/team-blog/migrate-paragraph-reference-field-
 ```
 https://atendesigngroup.com/blog/drupal-8-migration-multiple-paragraph-references
 ```
+
+Debuging
+```
+https://www.drupal.org/docs/8/api/migrate-api/debugging-migrations
+```
