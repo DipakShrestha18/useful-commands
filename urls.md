@@ -49,4 +49,5 @@ https://atendesigngroup.com/blog/drupal-8-migration-multiple-paragraph-reference
 Debuging
 ```
 https://www.drupal.org/docs/8/api/migrate-api/debugging-migrations
+https://agaric.coop/blog/how-debug-drupal-migrations-part-1
 ```
