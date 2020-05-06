@@ -51,3 +51,8 @@ Debuging
 https://www.drupal.org/docs/8/api/migrate-api/debugging-migrations
 https://agaric.coop/blog/how-debug-drupal-migrations-part-1
 ```
+
+Subrequests
+```
+https://thebrainfiles.wearebrain.com/how-to-quickly-configure-drupal-as-a-decoupled-api-first-system-8730a3623388
+```
