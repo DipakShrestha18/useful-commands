@@ -33,6 +33,7 @@ drush config-export --destination=/var/www/html/drupal/<new_folder>/
 
 to update migrate file
 drush config-import --partial --source=modules/custom/migrate_module/config/install/
+drush cim --partial --source=modules/custom/corp_migration/modules/corp_migration_paragraphs/config/install -y
 
 drush cim
 drush cex
