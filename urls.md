@@ -26,6 +26,7 @@ https://www.drupal.org/node/2544874
 Migrate Plugins
 ```
 https://www.drupal.org/docs/8/api/migrate-api/migrate-process-plugins
+https://deninet.com/blog/2017/07/13/building-custom-migration-drupal-8-part-6-custom-source-plugins
 ```
 
 CSV with plugin
