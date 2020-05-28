@@ -2,6 +2,7 @@
 docker-compose exec php bash
 docker image prune -a
 docker-compose build --force-rm --no-cache - Force rebuild docker
+docker volume prune
 ```
 
 stop all containers:  
