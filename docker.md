@@ -17,3 +17,7 @@ remove all docker images
 
 remove all docker volumes  
 ```docker volume ls -qf dangling=true | xargs -r docker volume rm```
+
+```
+https://medium.com/better-programming/docker-tips-clean-up-your-local-machine-35f370a01a78
+```
