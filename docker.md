@@ -1,5 +1,6 @@
 ```
 docker-compose exec php bash
+docker image prune -a
 ```
 
 stop all containers:  
