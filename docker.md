@@ -3,6 +3,8 @@ docker-compose exec php bash
 docker image prune -a
 docker-compose build --force-rm --no-cache - Force rebuild docker
 docker volume prune
+docker-compose build --no-cache
+docker-compose up -d
 df -h
 ```
 
