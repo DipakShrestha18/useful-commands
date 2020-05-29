@@ -1,6 +1,5 @@
 ```
 docker-compose exec php bash
-docker image prune -a
 docker-compose build --force-rm --no-cache - Force rebuild docker
 docker-compose build --no-cache
 docker-compose up -d
@@ -14,7 +13,10 @@ remove all containers
 ```docker rm $(docker ps -a -q)```
 
 remove all docker images  
-```docker rmi $(docker images -q)```
+```
+docker rmi $(docker images -q)
+docker image prune -a
+```
 
 remove all docker volumes  
 ```
