@@ -35,8 +35,7 @@ to update migrate file
 drush config-import --partial --source=modules/custom/migrate_module/config/install/
 drush cim --partial --source=modules/custom/corp_migration/modules/corp_migration_paragraphs/config/install -y
 
-drush cim
-drush cex
+vendor/bin/drush migrate-upgrade --legacy-db-key=migrate --legacy-root=https://wellcome.ac.uk/ --configure-only
 
 drush cex --no
 drush cex --no | grep -q identical
