@@ -63,4 +63,6 @@ Ckeditor
 ```
 https://www.drupal.org/docs/8/api/ckeditor-api/overview
 https://api.drupal.org/api/drupal/core%21modules%21ckeditor%21src%21CKEditorPluginButtonsInterface.php/interface/CKEditorPluginButtonsInterface/8.2.x
+https://ckeditor.com/cke4/addons/search/plugins
+https://ckeditor.com/cke4/addons/search/plugins/tableresize
 ```
