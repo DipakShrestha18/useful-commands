@@ -20,3 +20,7 @@ npm run dev
 react
 npm run start
 ```
+```
+react
+npm i @wellcometrust/corporate-components@latest
+```
