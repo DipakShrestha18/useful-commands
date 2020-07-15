@@ -1,6 +1,6 @@
 ```
 docker-compose exec php bash
-docker inspect corporate_solr
+docker inspect corporate_solr (see details about docker container)
 docker-compose build --force-rm --no-cache - Force rebuild docker
 docker-compose build --no-cache
 docker-compose up -d
