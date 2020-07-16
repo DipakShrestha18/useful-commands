@@ -9,4 +9,5 @@
 - [ ] Purge
 - [ ] Media Bulk Upload
 - [ ] Dropzone library
+- [ ] locale (providing path for static rendering PR id 157)
 https://www.qed42.com/blog/lazy-builders-drupal-8-caching-ftw
