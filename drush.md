@@ -64,3 +64,8 @@ Common command
 drush cr
 ```
 
+Config import issue
+```
+https://www.drupal.org/forum/support/post-installation/2015-12-20/problem-during-import-configuration
+```
+
