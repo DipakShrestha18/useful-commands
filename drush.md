@@ -59,13 +59,9 @@ To look at system.site configuration
 drush cget system.site
 ```
 
-Common command 
-```
-drush cr
-```
-
 Config import issue
 ```
 https://www.drupal.org/forum/support/post-installation/2015-12-20/problem-during-import-configuration
+drush entity:delete shortcut_set
 ```
 
