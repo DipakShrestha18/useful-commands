@@ -27,6 +27,7 @@ drush config-split-import
 drush config-split-export <dev>
 drush config-split-import <sync>
 drush config-split:import config_dev
+drush config-split:import dev
 
 to export migration
 drush config-export --destination=/var/www/html/drupal/<new_folder>/
