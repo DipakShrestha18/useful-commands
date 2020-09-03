@@ -66,3 +66,8 @@ https://www.drupal.org/forum/support/post-installation/2015-12-20/problem-during
 drush entity:delete <entity type name>
 ```
 
+Config split
+```
+drush config-split:export dev
+```
+
