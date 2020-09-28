@@ -19,6 +19,8 @@ npm link @wellcometrust/corporate-components
 component
 npm link ../corporate-react/node_modules/react
 npm run dev
+
+npm run storybook
 ```
 ```
 react
