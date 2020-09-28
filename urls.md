@@ -66,3 +66,8 @@ https://api.drupal.org/api/drupal/core%21modules%21ckeditor%21src%21CKEditorPlug
 https://ckeditor.com/cke4/addons/search/plugins
 https://ckeditor.com/cke4/addons/search/plugins/tableresize
 ```
+
+Patch 
+```
+https://github.com/thinktandem/drupal-contributions
+```
