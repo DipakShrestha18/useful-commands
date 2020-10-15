@@ -25,7 +25,7 @@ docker volume ls -qf dangling=true | xargs -r docker volume rm
 docker volume prune
 ```
 https://medium.com/better-programming/docker-tips-clean-up-your-local-machine-35f370a01a78
-```
+
 ```
 docker ps -q | xargs -n 1 docker inspect --format '{{ .Name }} {{range .NetworkSettings.Networks}} {{.IPAddress}}{{end}}' | sed 's#^/##';
 ```
