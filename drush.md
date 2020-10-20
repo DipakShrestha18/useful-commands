@@ -8,6 +8,7 @@ Migrate command
  migrate:stop (mst)          Stop an active migration operation. 
  migrate:status (ms)         List all migrations with current status. 
  
+ drush mim <migration name> --idlist <d7 node id>
  drush mim --migrate-debug
  drush ms --migrate-debug
  drush mim --migrate-debug-pre
