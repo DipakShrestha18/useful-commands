@@ -1,3 +1,31 @@
+
+```
+Cleaning everything
+docker system prune
+
+Removes stopped container
+docker container prune
+
+Remove all container
+docker container rm -f $(docker container ls -aq)
+
+
+Removes all dangling image
+docker image rm $(docker image ls -f dangling=true -q)
+docker image prune
+
+Removes all images
+docker image rm $(docker image ls -q)
+
+Cleans Local Volumes
+docker volume rm $(docker volume ls -q)
+docker volume prune
+
+Remove Build Cache
+docker builder prune
+
+```
+
 ```
 docker-compose exec php bash
 docker inspect corporate_solr (see details about docker container)
