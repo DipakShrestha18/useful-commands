@@ -1,0 +1,24 @@
+List nodes with missing grant holder - 8031
+
+```
+select n.nid FROM
+  node_field_data n
+  inner join node__award_holder_details_ref a
+    on a.entity_id = n.nid
+  left join paragraph__grant_holder_ref p
+    on p.entity_id = a.award_holder_details_ref_target_id
+where n.type = 'grant_awarded' and p.entity_id IS NULL;
+```
+
+List node types with missing person - 7896
+```
+SELECT distinct(n.type)
+FROM node_field_data n
+         INNER JOIN node__sections_ref s
+                    ON s.entity_id = n.nid
+         INNER JOIN paragraph__content_slices_ref p
+                    ON p.entity_id = s.sections_ref_target_id
+         LEFT JOIN paragraphs_item_field_data d
+                   ON d.id = p.content_slices_ref_target_id
+WHERE d.id IS NULL
+```
