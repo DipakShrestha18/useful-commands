@@ -57,3 +57,11 @@ https://medium.com/better-programming/docker-tips-clean-up-your-local-machine-35
 ```
 docker ps -q | xargs -n 1 docker inspect --format '{{ .Name }} {{range .NetworkSettings.Networks}} {{.IPAddress}}{{end}}' | sed 's#^/##';
 ```
+
+selecting tables in docker mariadb
+```
+docker exec -it mysql_container_name mysql -uroot -p
+USE Name-Of-The-Database
+show tables;
+SELECT * FROM table_name;
+```
