@@ -1,6 +1,7 @@
-Drupal Core update
+Drupal Core and contrib module update
 ```
 https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer
+https://www.drupal.org/docs/updating-drupal/updating-modules-and-themes-using-composer
 ```
 
 Markdown Cheatsheet
