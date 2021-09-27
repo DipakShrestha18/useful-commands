@@ -1,4 +1,4 @@
-Type python to go to >>> and ctrl + d to exit
+Type python to go to >>> and ctrl + d or exit() to exit
 
 
 VSCode
