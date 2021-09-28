@@ -1,3 +1,5 @@
+source env/bin/activate - Active virtual environment
+
 Type python to go to >>> and ctrl + d or exit() to exit
 
 
