@@ -54,3 +54,7 @@ Tuples - is a immutable list
 ```
 tuple()
 ```
+You can get multiple item out of tuble
+
+
+Sets - are mutable data types, they allow you to store immutable items in them in an unsorted way
