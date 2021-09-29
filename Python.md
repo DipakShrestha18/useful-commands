@@ -1,10 +1,12 @@
 source env/bin/activate - Active virtual environment
 
-Type `python` to go to repl from virtual environment >>> and ctrl + d or exit() to exit
+Type `python` to go to repl from virtual environment >>> and `ctrl + d` or `exit()` to exit
 
 
-VSCode
+VSCode useful command
+```
 Cmd + Shift + P
+```
 
 pypi.org - for python packages
 peg8.org - gives coding convention of python
