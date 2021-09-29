@@ -1,6 +1,6 @@
 source env/bin/activate - Active virtual environment
 
-Type python to go to >>> and ctrl + d or exit() to exit
+Type `python` to go to repl from virtual environment >>> and ctrl + d or exit() to exit
 
 
 VSCode
