@@ -33,3 +33,5 @@ There are 3 helpful method that you will be using in repl all the time.
 >>>dir(str)
 >>>dir(int)
 ```
+
+- print()
