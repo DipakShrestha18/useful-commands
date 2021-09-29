@@ -49,3 +49,8 @@ name = "Joe"
 greeting = f"Hello, {name}"
 print(greeting)
 ```
+
+Tuples - is a immutable list
+```
+tuple()
+```
