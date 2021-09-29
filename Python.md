@@ -13,6 +13,8 @@ peg8.org - gives coding convention of python
 
 Use snake_case for variable names
 
+In python everything is object like str, int, round, boolean
+
 There are 3 helpful method that you will be using in repl all the time.
 - help() - It lets you see documentation on repl
 ```
