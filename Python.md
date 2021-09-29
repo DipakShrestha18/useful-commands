@@ -35,3 +35,15 @@ There are 3 helpful method that you will be using in repl all the time.
 ```
 
 - print()
+
+f-strings
+
+There are several types of string formatting in Python, but f-strings introduced in Python 3.7 are the most modern and efficient.
+
+f-strings start with the letter f. Variables and expressions can be inserted into the string by enclosing them in curly brackets.
+
+```
+name = "Joe"
+greeting = f"Hello, {name}"
+print(greeting)
+```
