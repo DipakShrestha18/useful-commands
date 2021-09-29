@@ -1,3 +1,5 @@
+`https://practical.learnpython.dev/`
+
 source env/bin/activate - Active virtual environment
 
 Type `python` to go to repl from virtual environment >>> and `ctrl + d` or `exit()` to exit
