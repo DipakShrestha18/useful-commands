@@ -50,13 +50,13 @@ greeting = f"Hello, {name}"
 print(greeting)
 ```
 
-Tuples - is a immutable list
+***Tuples*** - is a immutable list
 ```
 tuple()
 ```
 You can get multiple item out of tuble
 
 
-Sets - are mutable data types, they allow you to store immutable items in them in an unsorted way. Set cannot contain duplicate values
+***Sets*** - are mutable data types, they allow you to store immutable items in them in an unsorted way. Set cannot contain duplicate values
 
-Dictionaries - are data types that allow storage of key and value, dictionary are mutable but dictionary key are immutable because key needs to hashable.
+***Dictionaries*** - are data types that allow storage of key and value, dictionary are mutable but dictionary key are immutable because key needs to hashable.
