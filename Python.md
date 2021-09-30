@@ -30,11 +30,28 @@ There are 3 helpful method that you will be using in repl all the time.
 <class 'int'>
 ```
 
+- isinstance - shows if instance for particular class
+```
+isinstance(42, int)
+isinstance("Hello world!", str)
+isinstance(my_car, float)
+isinstance(my_car, Car)
+```
+
+- issubclass - show if it's subclass for particular class
+```
+issubclass(bool, int)
+issubclass(int, object)
+issubclass(bool, object)
+```
+
 - dir() - shows the directory of all methods that is available for this type (int, string)
 ```
 >>>dir(str)
 >>>dir(int)
 ```
+
+
 
 - print()
 
