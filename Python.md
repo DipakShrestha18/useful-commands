@@ -32,17 +32,28 @@ There are 3 helpful method that you will be using in repl all the time.
 
 - isinstance - shows if instance for particular class
 ```
-isinstance(42, int)
-isinstance("Hello world!", str)
-isinstance(my_car, float)
-isinstance(my_car, Car)
+>>> isinstance(42, int)
+True
+>>> isinstance("Hello world!", str)
+True
+>>> isinstance(my_car, float)
+False
+>>> isinstance(my_car, Car)
+True
+
 ```
 
 - issubclass - show if it's subclass for particular class
 ```
-issubclass(bool, int)
-issubclass(int, object)
-issubclass(bool, object)
+# bool is a subclass of int
+>>> issubclass(bool, int)
+True
+# int is a subclass of object
+>>> issubclass(int, object)
+True
+# technically, everything is a subclass of object
+>>> issubclass(bool, object)
+True
 ```
 
 - dir() - shows the directory of all methods that is available for this type (int, string)
