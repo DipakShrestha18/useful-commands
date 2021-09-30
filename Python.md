@@ -62,3 +62,7 @@ You can get multiple item out of tuble
 **Dictionaries** - are data types that allow storage of key and value, dictionary are mutable but dictionary key are immutable because key needs to hashable.
 
 **List Comprehensions** - are a unique way to create lists in Python. A list comprehension consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses. The expressions can be any kind of Python object.
+
+**Generator expressions** - are a more advanced concept. A generator is a type of iterable object - like a list, you can iterate through each element - however, unlike a list, generators evaluate elements on demand, instead of assembling them all at once. A generator comprehension looks just like a list comprehension, except we use parentheses instead of brackets.
+
+
