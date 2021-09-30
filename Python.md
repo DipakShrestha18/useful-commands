@@ -60,3 +60,5 @@ You can get multiple item out of tuble
 **Sets** - are mutable data types, they allow you to store immutable items in them in an unsorted way. Set cannot contain duplicate values
 
 **Dictionaries** - are data types that allow storage of key and value, dictionary are mutable but dictionary key are immutable because key needs to hashable.
+
+**List Comprehensions** - are a unique way to create lists in Python. A list comprehension consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses. The expressions can be any kind of Python object.
