@@ -2,6 +2,7 @@
 
 source env/bin/activate - Active virtual environment
 
+**REPL**
 Type `python` to go to repl from virtual environment >>> and `ctrl + d` or `exit()` to exit
 
 
