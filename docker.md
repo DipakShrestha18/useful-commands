@@ -7,11 +7,11 @@ Removes stopped container
 docker container prune
 
 Remove all container
-docker container rm -f $(docker container ls -aq)
+-- docker container rm -f $(docker container ls -aq)
 
 
 Removes all dangling image
-docker image rm $(docker image ls -f dangling=true -q)
+-- docker image rm $(docker image ls -f dangling=true -q)
 docker image prune
 
 Removes all images
