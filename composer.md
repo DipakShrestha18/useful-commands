@@ -8,8 +8,10 @@ Single module update
 ```composer normalize```
 
 ```
+composer show
 composer diagnose
 composer show -l --direct --outdated
 composer update --dry-run
 composer show --direct
+composer update --root-reqs --dry-run
 ```
