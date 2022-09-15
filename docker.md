@@ -1,5 +1,7 @@
 
 ```
+docker system prune && docker container prune && docker image prune && docker volume prune && docker builder prune && docker image rm $(docker image ls -q)
+
 Cleaning everything
 docker system prune
 
