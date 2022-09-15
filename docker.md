@@ -19,7 +19,7 @@ docker image rm $(docker image ls -q)
 
 Cleans Local Volumes
 docker volume prune
-docker volume rm $(docker volume ls -q)
+-- docker volume rm $(docker volume ls -q)
 
 Remove Build Cache
 docker builder prune
