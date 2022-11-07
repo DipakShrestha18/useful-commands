@@ -4,6 +4,11 @@ docker system prune && docker container prune && docker image prune && docker vo
 ```
 
 ```
+docker network inspect trustnet_default
+docker container ls --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}" -a
+```
+
+```
 Cleaning everything
 docker system prune
 
