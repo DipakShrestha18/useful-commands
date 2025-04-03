@@ -22,3 +22,62 @@ FROM node_field_data n
                    ON d.id = p.content_slices_ref_target_id
 WHERE d.id IS NULL
 ```
+List pages with different cards
+```
+SELECT nid, title 
+FROM node_field_data n
+         INNER JOIN node__sections_landing_ref s
+                    ON s.entity_id = n.nid
+         INNER JOIN paragraph__content_slices_ref p
+                    ON p.entity_id = s.sections_landing_ref_target_id
+         LEFT JOIN paragraphs_item_field_data d
+                   ON d.id = p.content_slices_ref_target_id
+                   
+/* SELECT count(nid) as UserIN, nid, title 
+FROM node_field_data n
+         INNER JOIN node__sections_ref s
+                    ON s.entity_id = n.nid
+         INNER JOIN paragraph__content_slices_ref p
+                    ON p.entity_id = s.sections_ref_target_id
+         LEFT JOIN paragraphs_item_field_data d
+                   ON d.id = p.content_slices_ref_target_id */
+
+
+
+
+/* LEFT JOIN paragraph__select_card_type as sct
+ON p.content_slices_ref_target_id = sct.entity_id
+WHERE sct.select_card_type_value = 'share_link'
+GROUP BY n.nid */
+
+/* LEFT JOIN paragraph__listing_layout as ll
+ON p.content_slices_ref_target_id = ll.entity_id
+WHERE ll.listing_layout_value = 'vertical_card'
+GROUP BY n.nid */
+
+/* LEFT JOIN paragraph__card_type as ct
+ON p.content_slices_ref_target_id = ct.entity_id
+WHERE ct.card_type_value = 'mid_page_card'
+GROUP BY n.nid */
+
+/* LEFT JOIN paragraph__card_type as ct
+ON pr.content_slices_ref_target_id = ct.entity_id
+WHERE ct.card_type_value = 'link_card_cta_link'
+GROUP BY n.nid */
+
+/* LEFT JOIN paragraph__listing_layout as ll
+ON pr.content_slices_ref_target_id = ll.entity_id
+WHERE ll.listing_layout_value = 'horizontal_card'
+GROUP BY n.nid */
+
+/* LEFT JOIN paragraph__promo_position as pp
+ON pr.content_slices_ref_target_id = pp.entity_id
+WHERE pp.promo_position_value = 'sidebar'
+GROUP BY n.nid */
+
+LEFT JOIN paragraph__card_type as ct
+ON p.content_slices_ref_target_id = ct.entity_id
+WHERE ct.card_type_value = 'mid_page_card'
+GROUP BY n.nid
+
+```
